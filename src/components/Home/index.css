@@ -1,0 +1,98 @@
+.home-bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/home-lg-bg.png');
+  min-height: 100vh;
+  background-size: cover;
+}
+@media screen and (min-width: 768px) {
+  .home-lg-bg-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/home-lg-bg.png');
+    min-height: 150vh;
+    background-size: cover;
+  }
+}
+.home-heading {
+  color: #ffffff;
+  font-family: 'roboto';
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+.home-para {
+  color: #f8fafc;
+  font-family: 'roboto';
+  font-size: 14px;
+  font-weight: 300;
+  padding-left: 10px;
+  padding-right: 5px;
+}
+.jobs-btn {
+  background-color: #6366f1;
+  height: 30px;
+  width: 90px;
+  border-radius: 8px;
+  border-width: 0px;
+  margin-left: 10px;
+  color: #ffffff;
+  font-family: 'roboto';
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 20px;
+  cursor: pointer;
+}
+/* 576px devices */
+@media screen and (min-width: 576px) {
+  .home-heading {
+    color: #ffffff;
+    font-family: 'roboto';
+    font-size: 44px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-left: 10px;
+  }
+  .home-para {
+    color: #f8fafc;
+    font-family: 'roboto';
+    font-size: 24px;
+    font-weight: 300;
+    padding-left: 20px;
+    padding-right: 5px;
+  }
+  .jobs-btn {
+    height: 50px;
+    width: 150px;
+    border-radius: 8px;
+    margin-left: 20px;
+    font-size: 24px;
+  }
+}
+/* 768px devices */
+@media screen and (min-width: 768px) {
+  .home-heading {
+    font-size: 64px;
+    width: 50%;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-left: 10px;
+  }
+  .home-para {
+    width: 50%;
+    color: #f8fafc;
+    font-family: 'roboto';
+    font-size: 24px;
+    font-weight: 300;
+    padding-left: 20px;
+    padding-right: 5px;
+  }
+  .jobs-btn {
+    height: 50px;
+    width: 150px;
+    border-radius: 8px;
+    margin-left: 20px;
+    font-size: 24px;
+  }
+}
+.link {
+  text-decoration: none;
+}

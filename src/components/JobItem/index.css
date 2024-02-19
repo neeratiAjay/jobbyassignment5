@@ -1,0 +1,250 @@
+.job-card-container {
+  background-color: #202020;
+  border-radius: 8px;
+  min-height: 300px;
+  width: 300px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.image-flex-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.logo-image {
+  height: 40px;
+  width: 40px;
+  margin-top: 5px;
+}
+.title-container {
+  margin-left: 10px;
+  padding: 0;
+}
+.title {
+  color: #f8fafc;
+  font-family: 'roboto';
+  font-weight: bold;
+  font-size: 14px;
+  padding-bottom: 0;
+}
+
+.star-icon {
+  height: 14px;
+  width: 14px;
+  color: #fbbf24;
+  margin: 0;
+}
+.rating {
+  color: #f8fafc;
+  font-family: 'roboto';
+  font-weight: bold;
+  font-size: 12px;
+  padding-left: 4px;
+  padding-top: 0;
+}
+.flex-row-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.location-flex-container {
+  display: flex;
+  align-items: center;
+}
+.location-icon {
+  height: 15px;
+  width: 15px;
+  color: #cbd5e1;
+  margin-left: 10px;
+}
+.brefecase-icon {
+  height: 15px;
+  width: 15px;
+  color: #cbd5e1;
+  margin-left: 10px;
+}
+.location-text {
+  font-family: 'roboto';
+  color: #f1f5f9;
+  font-weight: 400;
+  padding-left: 5px;
+  font-size: 12px;
+}
+.employement-text {
+  font-family: 'roboto';
+  color: #f1f5f9;
+  font-weight: 400;
+  padding-left: 5px;
+  font-size: 12px;
+}
+.package-text {
+  font-family: 'roboto';
+  color: #f1f5f9;
+  font-weight: bold;
+  padding-right: 10px;
+  font-size: 15px;
+}
+.line {
+  color: #475569;
+  width: 95%;
+  margin-top: 0px;
+}
+.description-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.description-heading {
+  font-family: 'roboto';
+  color: #f8fafc;
+  font-weight: bold;
+  font-size: 15px;
+  padding-bottom: 0;
+}
+.description-text {
+  font-family: 'roboto';
+  color: #f1f5f9;
+  font-weight: 400;
+  font-size: 12px;
+  width: 96%;
+}
+/* large device ***********************/
+@media screen and (min-width: 768px) {
+  .job-card-container {
+    background-color: #202020;
+    border-radius: 12px;
+    min-height: 300px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+  .image-flex-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .logo-image {
+    height: 80px;
+    width: 80px;
+    margin-top: 15px;
+    margin-right: 20px;
+  }
+  .title-container {
+    margin-left: 10px;
+    padding: 0;
+    margin: 0;
+  }
+  .title {
+    color: #f8fafc;
+    font-family: 'roboto';
+    font-weight: bold;
+    font-size: 24px;
+    padding-bottom: 0;
+  }
+
+  .star-icon {
+    height: 24px;
+    width: 24px;
+    color: #fbbf24;
+    margin: 0;
+  }
+  .rating {
+    color: #f8fafc;
+    font-family: 'roboto';
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 0;
+  }
+  .flex-row-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .location-flex-container {
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+  }
+  .location-icon {
+    height: 25px;
+    width: 25px;
+    color: #cbd5e1;
+    margin-left: 10px;
+    margin-bottom: 0;
+  }
+  .brefecase-icon {
+    height: 25px;
+    width: 25px;
+    color: #cbd5e1;
+    margin-left: 30px;
+    margin-bottom: 0;
+  }
+  .location-text {
+    font-family: 'roboto';
+    color: #f1f5f9;
+    font-weight: 500;
+    padding-left: 10px;
+    font-size: 18px;
+    padding-bottom: 0;
+  }
+  .employement-text {
+    font-family: 'roboto';
+    color: #f1f5f9;
+    font-weight: 500;
+    padding-left: 10px;
+    font-size: 18px;
+    padding-bottom: 0;
+  }
+  .package-text {
+    font-family: 'roboto';
+    color: #f1f5f9;
+    font-weight: bold;
+    padding-right: 20px;
+    font-size: 25px;
+    padding-bottom: 0;
+  }
+  .line {
+    color: #475569;
+    width: 95%;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .description-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .description-heading {
+    font-family: 'roboto';
+    color: #f8fafc;
+    font-weight: bold;
+    font-size: 24px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  .description-text {
+    font-family: 'roboto';
+    color: #f1f5f9;
+    font-weight: 400;
+    font-size: 20px;
+    width: 96%;
+    padding-top: 0;
+  }
+}
+.link{
+  text-decoration: none;
+}

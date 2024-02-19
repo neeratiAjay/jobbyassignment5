@@ -1,0 +1,77 @@
+.job-item-bg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #000000;
+  min-height: 100vh;
+}
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.failure-view-image {
+  height: 300px;
+  width: 350px;
+}
+@media screen and (min-width: 576px) {
+  .failure-view-image {
+    height: 400px;
+    width: 450px;
+    margin-top: 30px;
+  }
+}
+.failure-heading {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 20px;
+  font-family: 'roboto';
+  text-align: center;
+}
+.failure-text {
+  color: #cbd5e1;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: 'roboto';
+  text-align: center;
+  width: 60%;
+}
+.failure-retry-btn {
+  height: 40px;
+  width: 80px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  background-color: #4f46e5;
+  border-width: 0;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 768px) {
+  .failure-heading {
+    font-size: 34px;
+  }
+  .failure-text {
+    color: #cbd5e1;
+    font-weight: 400;
+    font-size: 24px;
+    font-family: 'roboto';
+    text-align: center;
+    width: 60%;
+  }
+  .failure-retry-btn {
+    height: 50px;
+    width: 120px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    background-color: #4f46e5;
+    border-width: 0;
+    border-radius: 8px;
+    margin-bottom: 30px;
+  }
+}

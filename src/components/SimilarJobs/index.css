@@ -1,0 +1,33 @@
+.similar-jobs-bg-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #272727;
+  min-height: 300px;
+  width: 280px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+@media screen and (min-width:768px){
+  .similar-jobs-bg-container{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 350px;
+    margin-top: 20px;
+    border-radius: 12px;
+  }
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+.company-logo {
+  height: 40px;
+  width: 40px;
+}
+.similar-description-heading {
+  font-family: 'roboto';
+  font-weight: bold;
+  color: #f8fafc;
+  font-size: 18px;
+  padding-left: 20px;
+}

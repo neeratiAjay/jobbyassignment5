@@ -1,0 +1,142 @@
+.login-container {
+  background-color: #121212;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-card-container {
+  background-color: #202020;
+  height: 280px;
+  width: 280px;
+  border: none;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo {
+  height: 30px;
+  width: 80px;
+  margin-top: 10px;
+}
+.input-elements-container {
+  margin-top: 20px;
+}
+.label-text {
+  color: #ffffff;
+  font-family: 'roboto';
+  font-size: 14px;
+  font-weight: 500;
+  padding-left: 10px;
+}
+.user-input {
+  height: 30px;
+  width: 240px;
+  outline: none;
+  border: 1px solid #b6c5ff;
+  background-color: transparent;
+  margin: 10px 10px;
+  color: #ffffff;
+}
+.login-btn {
+  background-color: #6366f1;
+  color: #ffffff;
+  font-family: 'roboto';
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  border-radius: 4px;
+  width: 240px;
+  height: 30px;
+  border-width: 0px;
+  margin-left: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.error-msg {
+  color: #ff0b37;
+  font-family: 'roboto';
+  font-weight: 500;
+  font-size: 12px;
+  padding-left: 12px;
+}
+/* 576px devices*/
+@media screen and (min-width: 576px) {
+  .login-card-container {
+    background-color: #202020;
+    height: 480px;
+    width: 480px;
+    border-radius: 12px;
+  }
+  .logo {
+    height: 50px;
+    width: 120px;
+    margin-top: 20px;
+  }
+  .input-elements-container {
+    margin-top: 30px;
+  }
+  .label-text {
+    font-size: 24px;
+    padding-left: 15px;
+  }
+  .user-input {
+    height: 50px;
+    width: 420px;
+    outline: none;
+    border: 1px solid #b6c5ff;
+    margin: 15px 15px;
+    font-size: 24px;
+  }
+  .login-btn {
+    font-size: 24px;
+    border-radius: 8px;
+    width: 420px;
+    height: 50px;
+    margin-left: 15px;
+    margin-top: 20px;
+  }
+  .error-msg {
+    font-size: 20px;
+    padding-left: 22px;
+  }
+}
+
+/* 768px devices*/
+@media screen and (min-width: 768px) {
+  .login-card-container {
+    background-color: #202020;
+    height: 480px;
+    width: 480px;
+    border-radius: 12px;
+  }
+  .logo {
+    height: 50px;
+    width: 120px;
+    margin-top: 20px;
+  }
+  .input-elements-container {
+    margin-top: 30px;
+  }
+  .label-text {
+    font-size: 24px;
+    padding-left: 15px;
+  }
+  .user-input {
+    height: 50px;
+    width: 420px;
+    outline: none;
+    border: 1px solid #b6c5ff;
+    margin: 15px 15px;
+    font-size: 24px;
+  }
+  .login-btn {
+    font-size: 24px;
+    border-radius: 8px;
+    width: 420px;
+    height: 50px;
+    margin-left: 15px;
+    margin-top: 20px;
+  }
+}
